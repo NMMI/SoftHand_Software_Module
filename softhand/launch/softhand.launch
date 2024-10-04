@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<launch>
+
+	<arg name="yamlFile" default="$(find softhand)/config/conf_softhand.yaml"/>
+  	<rosparam command="load" file="$(arg yamlFile)"/>
+
+  	<group ns="SoftHand">
+    	<node pkg="softhand" name="softhand_dev" type="softhand" output="screen"/>
+  	</group>
+
+
+</launch>

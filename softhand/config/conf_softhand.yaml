@@ -1,0 +1,6 @@
+SoftHand:
+  port: '/dev/ttyUSB0'        # communication port
+  ID: 1                       # ID of the SoftHand
+  run_freq: 100               # Desired main rate in Hz
+  ref_hand_topic  : "ref"
+  meas_hand_topic : "meas"
