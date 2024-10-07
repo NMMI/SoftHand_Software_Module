@@ -1,5 +1,5 @@
 # SoftHand node
-ROS node to communicate with SoftHand Device
+ROS node to communicate with SoftHand Device: https://www.naturalmachinemotioninitiative.com/eurobin-softhand
 
 ## Installation
 ### Requirements
